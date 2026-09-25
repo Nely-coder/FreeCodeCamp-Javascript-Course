@@ -1,1 +1,0 @@
-# FreeCodeCamp-Javascript-Course
