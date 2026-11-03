@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+body.theme-light {
+  background: white;
+  color: black;
+}
+body.theme-dark {
+  background: black;
+  color: white;
+}
+body.theme-ocean {
+  background: lightblue;
+  color: white;
+}
+
+button {
+  padding: 9px;
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+  background: #1b1132;
+  color: #fff;
+}
+
+button.theme-dark {
+  background: lightgrey;
+  color: black;
+}
+button.theme-ocean {
+  background: dodgerblue;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  list-style-type: none;
+  padding: 5px 5px;
+}
+li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
