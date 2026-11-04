@@ -15,7 +15,7 @@ body.theme-dark {
   color: white;
 }
 body.theme-ocean {
-  background: lightblue;
+  background: dodgerblue;
   color: white;
 }
 
@@ -33,7 +33,7 @@ button.theme-dark {
   color: black;
 }
 button.theme-ocean {
-  background: dodgerblue;
+  background: lightblue;
 }
 
 button:hover {
@@ -45,6 +45,8 @@ ul {
   padding: 0;
   width: 200px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: #000;
 }
 
 li {
